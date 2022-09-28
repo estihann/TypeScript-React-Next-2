@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home():JSX.Element {
   const a=1;
+  const b=2;
   return (
     <div className={styles.container}>
       <Head>
@@ -59,7 +60,7 @@ export default function Home():JSX.Element {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{a}
+          Powered by{a + b}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
